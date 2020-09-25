@@ -12,11 +12,5 @@
     "resolveJsonModule": true
   },
   "include": [],
-  "exclude": ["node_modules"],
-  "types": [
-    "node"
-  ],
-  "ts-node": {
-    "transpileOnly": true
-  }
+  "exclude": ["node_modules"]
 }
