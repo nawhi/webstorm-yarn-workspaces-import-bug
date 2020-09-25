@@ -3,7 +3,7 @@
  * using the code intention which comes up automatically.
  *
  * The import will be added with the path:
- * '@samplecorp/shared/greeting'
+ * '@samplecorp/shared'
  *
  * but the file is actually at a different path:
  * '@samplecorp/shared/src/greeting'
