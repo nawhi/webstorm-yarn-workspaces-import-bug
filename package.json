@@ -9,5 +9,8 @@
   "workspaces": [
     "service",
     "shared"
-  ]
+  ],
+  "dependencies": {
+    "typescript": "^4.0.3"
+  }
 }
