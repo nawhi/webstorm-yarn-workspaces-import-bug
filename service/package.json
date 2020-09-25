@@ -1,5 +1,5 @@
 {
-  "name": "@samplecorp/datagraph",
+  "name": "@samplecorp/service",
   "version": "1.0.0",
   "dependencies": {
     "@samplecorp/shared": "1.0.0"
