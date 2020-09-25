@@ -1,0 +1,28 @@
+{
+  "name": "samplecorp",
+  "version": "0.0.1",
+  "description": "a sample monorepo",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "LOG_LEVEL=silent mocha './!(node_modules)*/**/**.test.ts'",
+    "test:integration": "LOG_LEVEL=silent mocha './!(node_modules)*/**/**.test.int.ts'",
+    "tsc": "yarn workspaces run tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "service",
+    "shared"
+  ],
+  "engines": {
+    "node": "14.x.x"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "printWidth": 120,
+    "semi": true,
+    "singleQuote": true
+  }
+}

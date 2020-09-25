@@ -1,0 +1,8 @@
+{
+  "name": "@samplecorp/datagraph",
+  "version": "1.0.0",
+  "dependencies": {
+    "@samplecorp/shared": "1.0.0"
+  },
+  "license": "UNLICENSED"
+}

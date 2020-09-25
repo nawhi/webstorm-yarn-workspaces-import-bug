@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "lib": ["es2019"],
+    "skipLibCheck": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "sourceMap": true,
+    "resolveJsonModule": true
+  },
+  "include": [],
+  "exclude": ["node_modules"],
+  "types": [
+    "node"
+  ],
+  "ts-node": {
+    "transpileOnly": true
+  }
+}
